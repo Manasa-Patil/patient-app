@@ -1,16 +1,18 @@
-import logo from './logo.svg';
-import './App.css';
+import Login from './Components/Login';
 
 function App() {
+<<<<<<< HEAD
+  return <div>
+    <Login />
+  </div>;
+=======
   return (
     <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
-         Thanushree.P <code>src/App.js</code> and save to reload.
+          Edit <code>src/App.js</code> and save to reload.
         </p>
-        <h1>Welcome to Patient-Management Project</h1>
-        
         <a
           className="App-link"
           href="https://reactjs.org"
@@ -22,6 +24,7 @@ function App() {
       </header>
     </div>
   );
+>>>>>>> parent of cd65e44 (Merge pull request #1 from PThanushree/branch-tp)
 }
 
 export default App;
