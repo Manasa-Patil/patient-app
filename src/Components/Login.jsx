@@ -3,14 +3,14 @@ import React from "react";
 export default function Login() {
   return (
     <div className="MainContainer">
-     <div className="FormContainer">
-    <h2>Login</h2>
-    <form>
-    <div className="Name" >
+      <div className="FormContainer">
+        <h2>Login</h2>
+        <form>
+          <div className="Name">
             <input
               type="text"
               placeholder="First Name"
-             // value={firstName}
+              // value={firstName}
               //onChange={(e) => setFirstName(e.target.value)}
             />
             <input
@@ -23,12 +23,12 @@ export default function Login() {
 
           <div>
             <select>
-             {/* value={gender} onChange={(e) => setGender(e.target.value)} */}
+              {/* value={gender} onChange={(e) => setGender(e.target.value)} */}
               <option value="">Select Gender</option>
               <option value="Male">Male</option>
               <option value="Female">Female</option>
             </select>
-            </div>
+          </div>
 
           <div>
             <input
@@ -44,15 +44,15 @@ export default function Login() {
               //onChange={(e) => setPhone(e.target.value)}
             />
             <input
-            type="text"
-            placeholder="Password"
-            //value={}
-            //onChange{}
+              type="text"
+              placeholder="Password"
+              //value={}
+              //onChange{}
             />
           </div>
 
-         <div>
-          <input
+          <div>
+            <input
               type="date"
               placeholder="Date of Birth"
               //value={dob}
@@ -67,9 +67,9 @@ export default function Login() {
             placeholder="Address"
           />
 
-     <button>Submit</button>
-    </form>
-     </div>
+          <button>Submit</button>
+        </form>
+      </div>
     </div>
   );
 }
