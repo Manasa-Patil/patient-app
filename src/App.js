@@ -1,10 +1,11 @@
 import Login from "./Components/Login";
 
 function App() {
+
   return (
     <div>
-      <Login />
-    </div>
+    <Login />
+  </div>
   );
 }
 
