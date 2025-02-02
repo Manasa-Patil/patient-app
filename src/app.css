@@ -1,4 +1,8 @@
 /*html, body {
     height: 100%;
-    overflow: hidden;  Prevents unwanted scrolling 
+    overflow: hidden;  Prevents unwanted scrolling  --primary-dark: #00539f;
+    --primary-light: #1268b2
 }*/
+ body{
+    background: linear-gradient(-65deg,#7ab3e6,#00539f);
+} 
