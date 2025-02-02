@@ -1,5 +1,13 @@
 .container{
     width:500px;
     margin:0 auto;
+    border-radius: 9px;
+    box-shadow:0 4px 6px rgba(0,0,0,0.2);
+    background-color: beige;
+    
+    
   
 }
+/* margin:0;
+height:100vh;
+background: linear-gradient(-45deg,#03bafc,#00539f); */
