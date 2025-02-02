@@ -1,3 +1,5 @@
-.FormContainer{
-    display: flex;
+.container{
+    width:800px;
+    margin:0 auto;
+    height:800px;
 }
