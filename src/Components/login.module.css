@@ -1,13 +1,30 @@
 .container{
     width:500px;
     margin:0 auto;
-    border-radius: 9px;
+    border-radius: 10px;
     box-shadow:0 4px 6px rgba(0,0,0,0.2);
-    background-color: beige;
+    /* background-color: beige; */
+     background: linear-gradient(-45deg,#56c8f1,#b5d8f8); 
+     justify-content: center;
+     padding: 12px;
+    /* height: 100%; */
+    color:rgb(45, 45, 173);
     
-    
-  
 }
-/* margin:0;
-height:100vh;
-background: linear-gradient(-45deg,#03bafc,#00539f); */
+
+.head{
+    text-align: center;
+    justify-content: center;
+}
+.mainContainer{
+   margin: 60px 0 ;
+   /* background: linear-gradient(-45deg,#b5d8f8,#9ad5eb);  */
+   background-color: rgb(1, 1, 156);
+   padding: 50px;
+   /* background-image: url('C:\Users\manas\OneDrive\Desktop\Patient\patient-app\assets\Healthcare-logo.jpg');
+    background-size: cover;  
+    background-position:40%;
+    background-repeat: no-repeat;
+   */
+    
+}
