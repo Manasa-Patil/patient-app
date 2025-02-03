@@ -6,7 +6,7 @@ export default function Header() {
     <div>
       <nav class="navbar bg-body-tertiary">
   <div class="container-fluid">
-    <a class="navbar-brand" href="#">
+    <a class="navbar-brand" href="/">
       <img src={myImage} alt="Logo" width="30" height="24" class="d-inline-block align-text-top"/> 
      
       HealthCare
