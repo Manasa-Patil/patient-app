@@ -1,4 +1,5 @@
 .mainContainer {
+
     background-image: url('.//Healthcare-logo.jpg '); /* Use your image path */
     background-size:contain; /* Ensure the image stays small */
     background-repeat: no-repeat; /* Don't repeat the image */
@@ -30,3 +31,5 @@
     font-size: 2rem;
     margin-bottom: 20px;
   }
+
+
