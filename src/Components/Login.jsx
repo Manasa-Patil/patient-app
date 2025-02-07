@@ -1,9 +1,16 @@
 import React from "react";
 import styles from './login.module.css';
+import { useState } from "react";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faEye, faEyeSlash } from "@fortawesome/free-solid-svg-icons";
+
 
 
 
 export default function Login() {
+
+  const [showPassword, setShowPassword] = useState(false);
+
   return (
     <div className={styles.mainContainer}>
 
@@ -34,8 +41,7 @@ export default function Login() {
  class="form-control" id="exampleFormControlInput1"
               type="date"
               placeholder="Date of Birth"
-              //value={dob}
-             // onChange={(e) => setDob(e.target.value)}
+            
             />
 </div>
 
@@ -48,10 +54,17 @@ export default function Login() {
 <div class="mb-3">
 <label for="inputPassword5" class="form-label">Password</label>
 <input type="password" id="inputPassword5" class="form-control" aria-describedby="passwordHelpBlock"/>
+
 <div id="passwordHelpBlock" class="form-text">
   Your password must be 8-20 characters long, contain letters and numbers, and must not contain spaces, special characters, or emoji.
 </div>
 </div>
+<span 
+                className="toggle-icon"
+                onClick={() => setShowPassword(!showPassword)}
+            >
+                {showPassword ? faEyeSlash :  faEye  }
+            </span>
 
 
 <div class="mb-3">
