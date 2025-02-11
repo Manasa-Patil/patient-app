@@ -1,15 +1,8 @@
 import React from "react";
 import styles from './login.module.css';
-import { useState } from "react";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faEye, faEyeSlash } from "@fortawesome/free-solid-svg-icons";
-
-
-
 
 export default function Login() {
 
-  const [showPassword, setShowPassword] = useState(false);
 
   return (
     <div className={styles.mainContainer}>
@@ -59,12 +52,6 @@ export default function Login() {
   Your password must be 8-20 characters long, contain letters and numbers, and must not contain spaces, special characters, or emoji.
 </div>
 </div>
-<span 
-                className="toggle-icon"
-                onClick={() => setShowPassword(!showPassword)}
-            >
-                {showPassword ? faEyeSlash :  faEye  }
-            </span>
 
 
 <div class="mb-3">
@@ -79,17 +66,6 @@ export default function Login() {
 </select>
 </div>
 
-{/* <div class="mb-3">
-<select class="form-select" aria-label="Default select example">
-  <option selected>Select Speciality</option>
-  <option value="1">Gyneacologist</option>
-  <option value="2">Surgeon</option>
-  <option value="3">Orthopedic</option>
-  <option value="3">Pediatrician</option>
-  <option value="3">Physicist</option>
-  <option value="3">Dermatologist</option>
-</select>
-</div> */}
 
 <div class="mb-3">
   <label for="exampleFormControlTextarea1" class="form-label">Address</label>

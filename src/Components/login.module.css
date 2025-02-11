@@ -1,10 +1,9 @@
 .mainContainer {
 
-    background-image: url('.//Healthcare-logo.jpg '); /* Use your image path */
-    background-size:contain; /* Ensure the image stays small */
-    background-repeat: no-repeat; /* Don't repeat the image */
-    background-position:center; /* Center the image */
-    /* Full screen height */
+    background-image: url('.//Healthcare-logo.jpg '); 
+    background-size:contain; 
+    background-repeat: no-repeat; 
+    background-position:center; 
     width: 600px;
     display: flex;
     justify-content: center;
@@ -20,7 +19,7 @@
     background-color: rgba(255, 255, 255, 0.8);  
     padding: 20px;
     border-radius: 20px;
-    width: 600px; /* Adjust width as necessary */
+    width: 600px; 
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
     color:rgb(45, 45, 173); 
    

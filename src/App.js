@@ -1,27 +1,50 @@
-import Login from "./Components/Login";
+// import Login from "./Components/Login";
 import "./app.css";
-import Header from "./Components/Header"
-import {useState } from "react";
-import Footer from "./Components/Footer"
-import Appointment from "./Components/Appointment";
+import Header from "./Components/Header";
+import Footer from "./Components/Footer";
+import Login from "./Components/Login";
+import ReactDOM from "react-dom/client";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Calender from "./Components/Calender";
-
 // import Appointment from "./Components/Appointment";
+
+const root = document.getElementById("root");
+
 
 function App() {
 
-  const [selectedDate, setSelectedDate] = useState(null);
+  // const [selectedDate, setSelectedDate] = useState(null);
+  ReactDOM.createRoot(root).render(
+  
 
-  return (
-    <div>
-     <Header />
-    <Login />
-    <Footer />
-    <Calender />
+      <BrowserRouter>
     
     
-    {/* <Appointment /> */}
-  </div>
+      <Header />
+      <div className="container my-3">
+          <Routes>
+            <Route
+              exact
+              path="/"
+              element={
+                <Login/>
+              }
+            />
+            <Route
+              exact
+              path="/appointment"
+              element={
+              <Calender/>
+            }
+            />
+          </Routes>
+        </div>
+
+        <Footer />
+
+  
+  
+    </BrowserRouter>
   );
 }
 
